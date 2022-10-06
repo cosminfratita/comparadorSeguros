@@ -1,0 +1,102 @@
+[
+  {
+    "tipo": "Scooter",
+    "indice": 1.01
+  },
+  {
+    "tipo": "Maxiscooter",
+    "indice": 1.03
+  },
+  {
+    "tipo": "Enduro",
+    "indice": 1.05
+  },
+  {
+    "tipo": "Naked",
+    "indice": 1.07
+  },
+  {
+    "tipo": "Sport",
+    "indice": 1.09
+  },
+  {
+    "marca": "Kawasaki",
+    "indice": 1.02
+  },
+  {
+    "marca": "Yamaha",
+    "indice": 1.04
+  },
+  {
+    "marca": "Suzuki",
+    "indice": 1.06
+  },
+  {
+    "marca": "Honda",
+    "indice": 1.08
+  },
+  {
+    "marca": "Ducati",
+    "indice": 1.1
+  },
+  {
+    "numero": "2022",
+    "indice": 1.1
+  },
+  {
+    "numero": "2021",
+    "indice": 1.09
+  },
+  {
+    "numero": "2020",
+    "indice": 1.08
+  },
+  {
+    "numero": "2019",
+    "indice": 1.07
+  },
+  {
+    "numero": "2018",
+    "indice": 1.06
+  },
+  {
+    "numero": "2017",
+    "indice": 1.05
+  },
+  {
+    "numero": "2016",
+    "indice": 1.04
+  },
+  {
+    "numero": "2015",
+    "indice": 1.03
+  },
+  {
+    "numero": "2014",
+    "indice": 1.02
+  },
+  {
+    "numero": "2013",
+    "indice": 1.01
+  },
+  {
+    "ciudad": "Madrid",
+    "indice": 1.1
+  },
+  {
+    "ciudad": "Barcelona",
+    "indice": 1.1
+  },
+  {
+    "ciudad": "Sevilla",
+    "indice": 1.08
+  },
+  {
+    "ciudad": "Valencia",
+    "indice": 1.06
+  },
+  {
+    "ciudad": "Bilbao",
+    "indice": 1.04
+  }
+]

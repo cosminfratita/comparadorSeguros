@@ -1,0 +1,161 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*-------MENU---------*/
+
+.menu{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	align-items: center;
+	width: 100%;
+	color: #fff;
+	height: 65px;
+	background-color: #0E94AB;
+}
+.menu_links{
+	list-style-type: none;
+	padding: 0;
+	background: #0E94AB;
+	width: 100%;
+	grid-column: 5/14;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+.menu li a:hover{
+	background: rgba(0, 0, 0, 0.3);
+}
+
+#btn-menu{
+	display: none;
+}
+.header-2 label{
+	display: none;
+}
+
+/*-----------------BODY----------------------*/
+
+.tarjetas{
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin: 200px;
+}
+.card-img-top{
+	    max-height: 194px;
+}
+.btn-primary{
+	    margin-left: 38px;
+}
+
+/*------------------FOOTER--------------------*/
+
+
+footer{
+	width: 100%;
+	bottom: 0;
+	padding: 10px;
+	color: #fff;
+	background-color: #0E94AB;
+	text-align: center;
+	margin-top: 5% !important;
+	 
+}
+.textos-footer{
+	grid-column: 1/-1;
+}
+
+
+
+
+/*------------RESPONSIVE-----------------*/
+
+@media screen and (max-width:800px){
+	.contact-wrapper{
+		display: inline-block;
+	}
+	.contact-info{
+	display: none;
+}
+	.header-2{
+		height: auto;
+		display: block;
+	}
+	.menu{
+		position: absolute;
+		text-align: center;
+		margin-left: -50%;
+		position:  absolute;
+		width: 70;
+		display: inline-block;
+		height: 30px;
+	}
+	.menu_links{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-column: 1/-1;
+		margin-left: -100%;
+	}
+	.menu_links li{
+		background: #0E94AB;
+	}
+	.header-2 label{
+		display: block;
+		background: #0E94AB;
+	}
+	.header-2 label img:hover{
+		background: rgba(0, 0, 0, 0.3);
+	}
+	.header-2 label img{
+		display: block;
+		margin: auto;
+	}
+
+	#btn-menu:checked ~ .menu_links {
+		margin: 0;
+	}
+	.items-2{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		flex-wrap: wrap;
+		grid-template-rows: repeat(3, 1fr);
+	}
+	.item-2{
+		width: 100%;
+	}
+	body {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetas{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 400px;
+}
+footer{
+	position: relative;
+}
+	
+
+ }
+
+
+
+@media screen and (max-width: 500px){
+.contact-form form{
+	display: inline-block;
+	grid-template-columns: 1fr ;
+	}
+}
